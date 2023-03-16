@@ -1,0 +1,420 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./project_images/dr_bg.png);
+    background-size: cover;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+.navbar {
+    display: inline;
+    list-style-type: none;
+    background-color: #7a1f1f;
+    height: 10%;
+    position: absolute;
+    margin-top: 0%;
+    width: 100%;
+}
+
+#logo {
+    position: absolute;
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 2%;
+    z-index: +100;
+    height: 120px;
+    width: 100px;
+}
+
+#medicines {
+    position: absolute;
+    display: inline;
+    margin-left: 70%;
+    margin-top: 0%;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+
+#medicines_link {
+    color: white;
+    text-decoration: none;
+}
+
+#medicines_link:hover {
+    color: yellow;
+}
+
+#health_tips {
+    position: absolute;
+    display: inline;
+    margin-left: 82%;
+    margin-top: 0%;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+
+#health_tips_link {
+    color: white;
+    text-decoration: none;
+}
+
+#health_tips_link:hover {
+    color: yellow;
+}
+
+#quote1 {
+    position: absolute;
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 60%;
+}
+
+#search_bar {
+    position: absolute;
+    height: 50px;
+    width: 600px;
+    border: 2px solid rgba(255, 255, 255, .8);
+    border-radius: 25px;
+    margin-top: 300px;
+    margin-left: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+#search_icon {
+    position: absolute;
+    height: 40px;
+    margin-top: 308px;
+    margin-left: 600px;
+}
+
+.fruits {
+    position: absolute;
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 3s;
+}
+
+#apple {
+    position: absolute;
+    height: 20%;
+    width: auto;
+    margin: 50%;
+    margin-left: 0%;
+    transition-duration: 0.5s;
+}
+
+#apple:hover {
+    height: 25%;
+    width: auto;
+}
+
+#mango {
+    position: absolute;
+    height: 20%;
+    width: auto;
+    margin: 70%;
+    margin-left: 0%;
+    transition-duration: 0.5s;
+}
+
+#mango:hover {
+    height: 25%;
+    width: auto;
+}
+
+#orange {
+    position: absolute;
+    height: 20%;
+    width: auto;
+    margin: 88%;
+    margin-left: 0%;
+    transition-duration: 0.5s;
+}
+
+#orange:hover {
+    height: 25%;
+    width: auto;
+}
+
+#banana {
+    height: 20%;
+    width: auto;
+    margin: 108%;
+    margin-left: 0%;
+    transition-duration: 0.5s;
+}
+
+#banana:hover {
+    height: 25%;
+    width: auto;
+}
+
+#grapes {
+    height: 20%;
+    width: auto;
+    margin: 128%;
+    margin-left: 0%;
+    transition-duration: 0.5s;
+}
+
+#grapes:hover {
+    height: 25%;
+    width: auto;
+}
+
+#litchi {
+    height: 20%;
+    width: auto;
+    margin: 140%;
+    margin-left: 0%;
+    transition-duration: 0.5s;
+}
+
+#litchi:hover {
+    height: 25%;
+    width: auto;
+}
+
+#guavava {
+    height: 20%;
+    width: auto;
+    margin: 158%;
+    margin-left: 0%;
+    transition-duration: 0.5s;
+}
+
+#guavava:hover {
+    height: 25%;
+    width: auto;
+}
+
+#papaya {
+    height: 20%;
+    width: auto;
+    margin: 178%;
+    margin-left: 0%;
+    transition-duration: 0.5s;
+}
+
+#papaya:hover {
+    height: 25%;
+    width: auto;
+}
+
+#pomengranate {
+    height: 20%;
+    width: auto;
+    margin: 192%;
+    margin-left: 0%;
+    transition-duration: 0.5s;
+}
+
+#pomengranate:hover {
+    height: 25%;
+    width: auto;
+}
+
+#watermelon {
+    height: 20%;
+    width: auto;
+    margin: 210%;
+    margin-left: 0%;
+    transition-duration: 0.5s;
+}
+
+#watermelon:hover {
+    height: 25%;
+    width: auto;
+}
+
+#pineapple {
+    height: 20%;
+    width: auto;
+    margin: 229%;
+    margin-left: 0%;
+    transition-duration: 0.5s;
+}
+
+#pineapple:hover {
+    height: 25%;
+    width: auto;
+}
+
+.benefits_fruits {
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    margin: 48%;
+    margin-left: 20%;
+    margin-right: 60%;
+    position: absolute;
+}
+
+.slideshow_background {
+    background-color: antiquewhite;
+    border: 10px solid black;
+    width: 98.5%;
+    height: 80%;
+    margin-top: 255%;
+    position: absolute;
+}
+
+.slideshow {
+    z-index: +1000;
+    margin-left: 5%;
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    background-image: url(project_images/slide1.jpg);
+    background-repeat: no-repeat;
+    margin-top: 260%;
+    animation: slideshow 20s linear infinite;
+}
+
+@keyframes slideshow {
+    0% {
+        background-image: url('./project_images/slide1.jpg');
+        background-repeat: no-repeat;
+    }
+    20% {
+        background-image: url('./project_images/slide2.jpg');
+        background-repeat: no-repeat;
+    }
+    40% {
+        background-image: url('./project_images/slide3.jpg');
+        background-repeat: no-repeat;
+    }
+    60% {
+        background-image: url('./project_images/slide4.jpg');
+        background-repeat: no-repeat;
+    }
+    80% {
+        background-image: url('./project_images/slide5.jpg');
+        background-repeat: no-repeat;
+    }
+    100% {
+        background-image: url('./project_images/slide6.jpg');
+        background-repeat: no-repeat;
+    }
+}
+
+#quote2 {
+    color: black;
+    font-size: 250%;
+    margin-left: 50%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#search_list {
+    position: absolute;
+    width: 570px;
+    height: 200px;
+    margin-top: 360px;
+    margin-left: 50px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    background-color: white;
+    color: black;
+    list-style: none;
+    font-size: 30px;
+}
+
+#search_list li {
+    margin-top: 10px;
+}
+
+#search_list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 95%;
+    margin-top: 291.5%;
+    background-color: firebrick;
+    font-size: 20px;
+    color: white;
+}
+
+#about {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#para_1 {
+    position: absolute;
+    margin-top: 10%;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 60%;
+}
+
+#contact {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+#para_2 {
+    position: absolute;
+    margin-top: 10%;
+    font-size: 25px;
+    margin-left: 45%;
+    margin-right: 30%;
+}
+
+#para_3 {
+    position: absolute;
+    margin-top: 12%;
+    font-size: 25px;
+    margin-left: 45%;
+    margin-right: 30%;
+}
+
+#para_4 {
+    position: absolute;
+    margin-top: 14%;
+    font-size: 25px;
+    margin-left: 45%;
+    margin-right: 30%;
+}
+
+#privacy_policy {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 70%;
+}
+
+#para_5 {
+    position: absolute;
+    margin-top: 10%;
+    font-size: 25px;
+    margin-left: 70%;
+    margin-right: 5%;
+}
